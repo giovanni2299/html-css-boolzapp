@@ -19,6 +19,7 @@ a{
 
 body{
     font-family: sans-serif;
+    background:linear-gradient( #4D9288,  #DBDBD4);;
 }
 
 /* UTILITIES */
@@ -53,6 +54,12 @@ body{
 
 .container{
     max-width: 100%;
+    height: 100%;
+}
+
+.col{
+    padding: 10px;
+    height: 100%;
 }
 
 .col12{
@@ -61,6 +68,9 @@ body{
 /* END LAYOUT */
 
 /* LEFT PART */
+aside{
+    background-color: white;
+}
 .user{
     padding: 9px 10px;
     background-color: #EAEAEA;
@@ -123,7 +133,7 @@ body{
 }
 .sub__info{
     color: #828282;
-    margin-top: 10px;
+    margin-top: 7px;
     font-size: 10px;
 }
 /* RIGHT PART */
@@ -191,7 +201,7 @@ body{
     }
     .col-aside{
         width: 300px;
-        overflow: auto;
+        /* overflow: auto; */
     }
     .user{
         justify-content: space-between;
@@ -206,6 +216,9 @@ body{
     .cta>*{
         padding: 10px;
         color: #828282;
+    }
+    .friends{
+        overflow: auto;
     }
     .friend{
         display: flex;
@@ -262,6 +275,7 @@ body{
 
 /* COL FOOTER */
 .col__footer{
+    background-color: white;
     min-height: 30px;
     padding: 5px;
 
@@ -282,17 +296,16 @@ body{
 }
 
 .debug .container{
-    border: 1px solid black;
-    height: 100%;
+    /* border: 1px solid black; */
+    
 }
 
 .debug .col{
-    border: 1px solid rgb(255, 0, 179);
-    padding: 10px;
-    height: 100%;
+    /* border: 1px solid rgb(255, 0, 179); */
+    
 }
 
-.col__header{
+/* .col__header{
     border: 1px solid blue;
 }
 
@@ -302,4 +315,4 @@ body{
 
 .col__footer{
     border: 1px solid red;
-}
+} */
