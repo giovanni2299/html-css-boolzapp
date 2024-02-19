@@ -92,6 +92,40 @@ body{
 .magnifying i{
     font-size: 12px;
 }
+
+.message-blue{
+    align-items: center;
+    background-color: #A6D7F9;
+}
+.bell{
+    padding: 10px;
+    text-align: center;
+}
+.bell i{
+    color: #A6D7F9;
+    background-color: white;
+    height: 50px;
+    line-height: 50px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.notification-title{
+    font-size: 12px;
+    
+}
+.alone{
+    text-decoration: underline;
+    font-size: 10px;
+}
+.friend__info{
+    padding: 10px;
+}
+.sub__info{
+    color: #828282;
+    margin-top: 10px;
+    font-size: 10px;
+}
 /* RIGHT PART */
 /* COL__HEADER */
 .col__header{
@@ -146,6 +180,9 @@ body{
     .cta{
         display: none;
     }
+    .message-blue{
+        display: none;
+    }
 }
 @media (min-width:1100px){
     #app{
@@ -153,7 +190,8 @@ body{
         margin: 0 auto;
     }
     .col-aside{
-        width: 280px;
+        width: 300px;
+        overflow: auto;
     }
     .user{
         justify-content: space-between;
@@ -171,9 +209,19 @@ body{
     }
     .friend{
         display: flex;
+        align-items: center;
     }
     .firend img{
         width: 50px
+    }
+    .message-blue{
+        display: flex;
+    }
+    .magnifying{
+        display: block;
+    }
+    .friend__info{
+        display: block;
     }
 }
 
