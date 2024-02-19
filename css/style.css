@@ -17,9 +17,17 @@ a{
     color: currentColor;
 }
 
+body{
+    font-family: sans-serif;
+}
+
 /* UTILITIES */
 .display-none{
     display:none;
+}
+
+.flex{
+    display: flex;
 }
 /* LAYOUT */
 #app{
@@ -33,15 +41,47 @@ a{
 .container{
     max-width: 100%;
 }
+
+.col12{
+    width: 100%;
+}
 /* END LAYOUT */
 
 /* RIGHT PART */
+.col__header{
+    background-color: #EAEAEA;
+    height: 70px;
+}
 
+.contact{
+    align-items: center;
+}
 
+.contact__img{
+    padding: 5px 10px;
+}
 
+.contact__img img{
+    height: 50px;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+}
 
+.last-access{
+    line-height: 20px;
+    font-size: 13px;
+    color: #6E7477;
+}
 
-
+@media (min-width:980px){
+    .col__header{
+        display: flex;
+        align-items: center;
+    }
+    .menu{
+        display: block;
+    }
+}
 
 
 
