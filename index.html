@@ -10,9 +10,9 @@
 <body class="debug">
     <div id="app">
         <div class="container row">
-            <aside class="col display-none">ciao</aside>
-            <div class="col12">
-                <div class="col__header">
+            <aside class="col-aside display-none">ciao</aside>
+            <div class="col12 flex-column">
+                <div class="col__header flex">
                     <div class="contact flex">
                         <div class="contact__img">
                             <img src="./img/avatar_1.jpg" alt="">
@@ -30,8 +30,27 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col__body">ciao </div>
-                <div class="col__footer">ciao </div>
+                <div class="col__body flex-column">
+                    <div class="box-message green align-self">
+                        <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores similique perferendis aliquid impedit. Hic consectetur, obcaecati debitis aut quod natus blanditiis eaque id veniam. Sit perspiciatis quos in non.</p>
+                        <p class="clock__time">16:13</p>
+                    </div>
+                    <div class="box-message white">
+                        <p class="message">Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus asperiores similique perferendis aliquid impedit. Hic consectetur, obcaecati debitis aut quod natus blanditiis eaque id veniam. Sit perspiciatis quos in non.</p>
+                        <p class="clock__time">16:13</p>
+                    </div>
+                </div>
+                <div class="col__footer flex">
+                    <div class="emoji display-none">
+                        <i class="fa-regular fa-face-smile">
+                        </i>
+                    </div>
+                    <input class="type__here" type="text" placeholder="Scrivi un messaggio">
+                    <div class="send__audio display-none">
+                        <i class="fa-solid fa-microphone">
+                        </i>
+                    </div>
+                </div>
 
             </div>
             
