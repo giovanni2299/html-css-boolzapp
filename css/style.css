@@ -16,6 +16,11 @@ a{
     text-decoration: none;
     color: currentColor;
 }
+
+/* UTILITIES */
+.display-none{
+    display:none;
+}
 /* LAYOUT */
 #app{
     height: 100vh;
@@ -27,4 +32,46 @@ a{
 
 .container{
     max-width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DEBUG */
+#app{
+    /* padding: 20px; */
+}
+
+.debug .container{
+    border: 1px solid black;
+    height: 100%;
+}
+
+.debug .col{
+    border: 1px solid rgb(255, 0, 179);
+    padding: 10px;
+    height: 100%;
+}
+
+.col__header{
+    border: 1px solid blue;
+}
+
+.col__body{
+    border: 1px solid green;
+}
+
+.col__footer{
+    border: 1px solid red;
 }
