@@ -201,7 +201,8 @@ aside{
         margin: 0 auto;
     }
     .col-aside{
-        width: 300px;
+        width: 370px;
+        background-color: #EAEAEA;
         /* overflow: auto; */
     }
     .user{
@@ -218,12 +219,19 @@ aside{
         padding: 10px;
         color: #828282;
     }
+    .serch-container{
+        background-color: white;
+        padding: 2px;
+        margin: 5px;
+    }
     .friends{
         overflow: auto;
     }
     .friend{
         display: flex;
         align-items: center;
+        background-color: white;
+        margin-right: 12px;
     }
     .firend img{
         width: 50px
