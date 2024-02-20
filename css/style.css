@@ -19,7 +19,11 @@ a{
 
 body{
     font-family: sans-serif;
-    background:linear-gradient( #4D9288,  #DBDBD4);;
+    /* background:linear-gradient( #4D9288,  #DBDBD4); */
+    background: rgb(230,230,230);
+    background: linear-gradient(0deg, rgba(230,230,230,1) 15%, rgba(219,219,212,1) 36%, rgba(65,187,158,1) 71%, rgba(67,187,170,1) 98%);
+    /* background: rgb(70,92,252);
+    background: radial-gradient(circle, rgba(70,92,252,1) 16%, rgba(252,204,70,1) 50%, rgba(252,105,105,1) 70%, rgba(252,70,150,1) 84%, rgba(202,255,0,1) 99%); */
 }
 
 /* UTILITIES */
