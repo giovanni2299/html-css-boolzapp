@@ -208,7 +208,7 @@ aside{
     }
     .col-aside{
         width: 370px;
-        background-color: #EAEAEA;
+        background-color: #FAFAFA;
         /* overflow: auto; */
     }
     .user{
@@ -238,6 +238,8 @@ aside{
         align-items: center;
         background-color: white;
         margin-right: 12px;
+        box-shadow: 5px 5px 10px 2px rgba(200, 200, 200, .4);
+        /* border: 1px solid #F5F5F5; */
     }
     .firend img{
         width: 50px
