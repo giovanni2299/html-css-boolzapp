@@ -136,6 +136,12 @@ aside{
     margin-top: 7px;
     font-size: 10px;
 }
+
+.list-time{
+    font-size: 11px;
+    color: #828282;
+    align-self: baseline;
+}
 /* RIGHT PART */
 /* COL__HEADER */
 .col__header{
@@ -244,6 +250,9 @@ aside{
     }
     .friend__info{
         display: block;
+    }
+     .list-time{
+        display: flex;
     }
 }
 
