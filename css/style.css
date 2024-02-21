@@ -321,9 +321,13 @@ aside {
     animation-name: slide-in-right;
     animation-duration: 1.5s;
 }
-.box-message.slide-in-left {
+.slide-in-left {
     animation-name: slide-in-left;
     animation-duration: 1.5s;
+}
+.slide-in-left_S{
+    animation-name: slide-in-left;
+    animation-duration: 2.5s;
 }
 
 .green {
@@ -414,3 +418,15 @@ aside {
         transform: translateX(0);
     }
 }
+
+/* @keyframes slide-in-left {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+} */
